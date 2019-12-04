@@ -22,6 +22,7 @@ namespace BallSpiel
     public partial class MainWindow : Window
     {
         private readonly DispatcherTimer _animationsTimer = new DispatcherTimer();
+        private bool gehtNachRechts = true;
 
         public MainWindow()
         {
@@ -35,7 +36,23 @@ namespace BallSpiel
         {
             var x = Canvas.GetLeft(Ball);
 
-            Canvas.SetLeft(Ball, x + 5);
+            if (gehtNachRechts)
+            {
+                Canvas.SetLeft(Ball, x + 5);
+            }
+            else
+            {
+                Canvas.SetLeft(Ball, x - 5);
+            }
+
+            if (x >= Spielplatz.ActualWidth - Ball.ActualWidth)
+            {
+                gehtNachRechts = false;
+            }
+            else if (x <= 0)
+            {
+                gehtNachRechts = true;
+            }
         }
 
         private void StartStopButton_Click(object sender, RoutedEventArgs e)
