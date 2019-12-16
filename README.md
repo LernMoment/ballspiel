@@ -1,4 +1,4 @@
-# ballspiel
+# LernMoments BallSpiel
 Der Einstieg in WPF mit C# und .NET Core anhand eines konkreten Projekts. Gemeinsam entwickle ich mit dir ein einfaches Spiel. Du brauchst keine Vorkenntnisse. Das dazugehörige Video-Tutorial findest du hier: https://youtu.be/ugji-_yWoRk
 
 Mit diesem Video möchte ich dir zeigen wie schnell du eine Anwendung mit Oberfläche erstellen kannst. Dabei steht nicht im Vordergrund, dass du alles verstehst, sondern, dass du es selber machst. So sammelst du deine ersten praktische Erfahrung und kannst später in die Punkte eintauchen die dir unklar sind.
