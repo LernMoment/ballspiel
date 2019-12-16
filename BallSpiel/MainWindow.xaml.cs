@@ -23,6 +23,7 @@ namespace BallSpiel
     {
         private readonly DispatcherTimer _animationsTimer = new DispatcherTimer();
         private bool gehtNachRechts = true;
+        private bool gehtNachUnten = true;
 
         public MainWindow()
         {
@@ -52,6 +53,26 @@ namespace BallSpiel
             else if (x <= 0)
             {
                 gehtNachRechts = true;
+            }
+
+            var y = Canvas.GetTop(Ball);
+
+            if (gehtNachUnten)
+            {
+                Canvas.SetTop(Ball, y + 5);
+            }
+            else
+            {
+                Canvas.SetTop(Ball, y - 5);
+            }
+
+            if (y >= Spielplatz.ActualHeight - Ball.ActualHeight)
+            {
+                gehtNachUnten = false;
+            }
+            else if (y <= 0)
+            {
+                gehtNachUnten = true;
             }
         }
 
