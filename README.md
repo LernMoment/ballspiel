@@ -2,8 +2,14 @@
 Der Einstieg in WPF mit C# und .NET Core anhand eines **konkreten Projekts**. Gemeinsam entwickle ich mit dir ein einfaches Spiel. Du brauchst **keine Vorkenntnisse**. Das dazugehörige **Video-Tutorial** findest du hier: https://youtu.be/ugji-_yWoRk
 
 Mit diesem Video möchte ich dir zeigen wie schnell du eine Anwendung mit Oberfläche erstellen kannst. Dabei steht nicht im Vordergrund, dass du alles verstehst, sondern, dass du es selber machst. So sammelst du deine ersten praktische Erfahrung und kannst später in die Punkte eintauchen die dir unklar sind.
+
+### Die einzelnen Lektionen in diesem BallSpiel
 Die wichtigsten Schritte die wir gemeinsam in diesem Video beschreiten sind folgende (wenn du auf die Zeiten klickst, kommst du direkt an die passende Stelle im Video):
- 1. [0:00](https://youtu.be/ugji-_yWoRk) Ein WPF Projekt unter .NET Core und C# in Visual Studio 2019 (oder 2017) anlegen
+
+|#|Lektion|Einsprung ins Video|Passender Commit|
+|---|---|---|---|
+|1|Ein WPF Projekt unter .NET Core und C# in Visual Studio 2019 (oder 2017) anlegen|[0:00](https://youtu.be/ugji-_yWoRk)|3c2528b|
+
  2. [2:25](https://youtu.be/ugji-_yWoRk?t=145) Ich zeige dir die wichtigsten Fenster für die Entwicklung mit Oberflächen und gebe dir einen ersten Einstieg in XAML. XAML (eXtensible Application Markup Language) wird in WPF zur Beschreibung der Oberfläche benutzt.
  3. [5:53](https://youtu.be/ugji-_yWoRk?t=353) Im nächsten Schritt ziehst du die notwendigen Controls aus der Toolbox in den Designer
  4. [12:05](https://youtu.be/ugji-_yWoRk?t=725) Nun beginnt die eigentliche Arbeit und du positionierst den Ball für unser BallSpiel auf dem Spielfeld
