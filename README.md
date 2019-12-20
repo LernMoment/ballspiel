@@ -7,11 +7,11 @@ Mit diesem Video möchte ich dir zeigen wie schnell du eine Anwendung mit Oberfl
 Die wichtigsten Schritte die wir gemeinsam in diesem Video beschreiten sind folgende (wenn du auf die Zeiten klickst, kommst du direkt an die passende Stelle im Video):
 
 |#|Lektion|Einsprung ins Video|Passender Commit|
-|---|---|---|---|
+|---|---|:---:|:---:|
 |1|Ein WPF Projekt unter .NET Core und C# in Visual Studio 2019 (oder 2017) anlegen|[0:00](https://youtu.be/ugji-_yWoRk)|[3c2528b](https://github.com/LernMoment/ballspiel/commit/3c2528be37fd72d7fd708aa8dea0b598246f281f)|
 |2|Einführung in XAML (eXtensible Application Markup Language)|[2:25](https://youtu.be/ugji-_yWoRk?t=145)|[ea51706](https://github.com/LernMoment/ballspiel/commit/ea51706de9a81bf7756801429262ecc06e0bc08e)|
 |3|Die Oberfläche erhält Button, Label, Canvas und den Ball|[5:53](https://youtu.be/ugji-_yWoRk?t=353)|[f3cf550](https://github.com/LernMoment/ballspiel/commit/f3cf55096c402d522684accd0d94affebebfe986)|
-|4|Sprache für Bezeichner und dynamisches vs statisches Layout|[12:54](https://youtu.be/ugji-_yWoRk?t=774)||
+|4|Sprache für Bezeichner und dynamisches vs statisches Layout|[12:54](https://youtu.be/ugji-_yWoRk?t=774)|[ea51706](https://github.com/LernMoment/ballspiel/commit/ea51706de9a81bf7756801429262ecc06e0bc08e)|
 |5|Eventhandler für den Start/Stop Button anlegen|[15:30](https://youtu.be/ugji-_yWoRk?t=930)|[107b75c](https://github.com/LernMoment/ballspiel/commit/107b75c3edd9d6400a235a95f27f94f9ed8aa100)|
 |6|Theorie: Wie kann der Ball auf dem Canvas bewegt werden?|[19:33](https://youtu.be/ugji-_yWoRk?t=1173)||
 |7|Auswahl & Anlegen eines Timers zur Steuerung des Balls|[21:38](https://youtu.be/ugji-_yWoRk?t=1298)|[107b75c](https://github.com/LernMoment/ballspiel/commit/107b75c3edd9d6400a235a95f27f94f9ed8aa100)|
