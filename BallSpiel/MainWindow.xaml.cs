@@ -25,6 +25,8 @@ namespace BallSpiel
         private bool gehtNachRechts = true;
         private bool gehtNachUnten = true;
 
+        private int zaehler = 0;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -85,6 +87,17 @@ namespace BallSpiel
             else
             {
                 _animationsTimer.Start();
+                zaehler = 0;
+                SpielstandLabel.Content = $"{zaehler} Clicks";
+            }
+        }
+
+        private void Ball_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            if (_animationsTimer.IsEnabled)
+            {
+                zaehler += 1;
+                SpielstandLabel.Content = $"{zaehler} Clicks";
             }
         }
     }
