@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BallSpiel"
         mc:Ignorable="d"
-        Title="LernMoments BallSpiel" Height="450" Width="800">
+        Title="LernMoments BallSpiel" Height="450" Width="800" KeyUp="Ball_KeyUp">
     <Grid>
         <Button Content="Start/Stop" Name="StartStopButton" HorizontalAlignment="Left" Margin="60,59,0,0" VerticalAlignment="Top" Click="StartStopButton_Click"/>
         <Label Content="0 Clicks" Name="SpielstandLabel" HorizontalAlignment="Left" Margin="64,84,0,0" VerticalAlignment="Top"/>

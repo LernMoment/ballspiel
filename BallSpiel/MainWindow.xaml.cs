@@ -100,5 +100,13 @@ namespace BallSpiel
                 SpielstandLabel.Content = $"{zaehler} Clicks";
             }
         }
+
+        private void Ball_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.F)
+            {
+                Ball.Fill = Brushes.Red;
+            }
+        }
     }
 }
