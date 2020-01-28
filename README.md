@@ -1,7 +1,8 @@
 # LernMoments BallSpiel
-Der Einstieg in WPF mit C# und .NET Core anhand eines **konkreten Projekts**. Gemeinsam entwickle ich mit dir ein einfaches Spiel. Du brauchst **keine Vorkenntnisse**. Das dazugehörige **Video-Tutorial** findest du hier: https://youtu.be/ugji-_yWoRk
+Der Einstieg in WPF mit C# und .NET Core anhand eines **konkreten Projekts**. Gemeinsam entwickle ich mit dir ein einfaches Spiel. Du brauchst **keine Vorkenntnisse**. Das dazugehörige **Video-Tutorial** findest du in dieser [YouTube PlayList](https://www.youtube.com/playlist?list=PLP2TrPpx5VNk2g07AKxyIGdsUJNA95CDt).
 
-Mit diesem Video möchte ich dir zeigen wie schnell du eine Anwendung mit Oberfläche erstellen kannst. Dabei steht nicht im Vordergrund, dass du alles verstehst, sondern, dass du es selber machst. So sammelst du deine ersten praktische Erfahrung und kannst später in die Punkte eintauchen die dir unklar sind.
+## Erstelle deine erste Oberfläche in WPF & C# - BallSpiel Teil 1
+Mit [diesem Video](https://www.youtube.com/watch?v=ugji-_yWoRk&list=PLP2TrPpx5VNk2g07AKxyIGdsUJNA95CDt) möchte ich dir zeigen wie schnell du eine Anwendung mit Oberfläche erstellen kannst. Dabei steht nicht im Vordergrund, dass du alles verstehst, sondern, dass du es selber machst. So sammelst du deine ersten praktische Erfahrung und kannst später in die Punkte eintauchen die dir unklar sind.
 
 ### Die einzelnen Lektionen in diesem BallSpiel
 Die wichtigsten Schritte die wir gemeinsam in diesem Video beschreiten sind folgende (wenn du auf die Zeiten klickst, kommst du direkt an die passende Stelle im Video):
@@ -24,3 +25,9 @@ Die wichtigsten Schritte die wir gemeinsam in diesem Video beschreiten sind folg
 Zukünftig werde ich weitere Videos veröffentlichen in denen wir diese Anwendung gemeinsam erweitern.
 
 Wenn dir der Quellcode und das Video helfen, würde ich mich wahnsinnig über ein Sternchen an diesem Projekt hier auf GitHub freuen und natürlich einen "Daumen hoch" am besten einen Kommentar an dem YouTube-Video (siehe [hier](https://youtu.be/ugji-_yWoRk))
+
+## Das passende Event in WPF (C#) finden - BallSpiel Teil 2
+In [diesem Video](https://www.youtube.com/watch?v=L99fv0Gzx4Y&list=PLP2TrPpx5VNk2g07AKxyIGdsUJNA95CDt) gehen wir etwas genauer auf die verschiedenen Events ein. Dabei geht es darum, dass wir die Steuerung des Balls mithilfe von Maus und Tastaur umsetzen, aber du lernst auch ein wenig mehr bezüglich der Hintergründe von Events in WPF.
+
+### Die einzelnen Lektionen in diesem Video
+kommen in Kürze!
