@@ -103,9 +103,26 @@ namespace BallSpiel
 
         private void Ball_KeyUp(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.F)
+            switch (e.Key)
             {
-                Ball.Fill = Brushes.Red;
+                case Key.F:
+                    Ball.Fill = Brushes.Red;
+                    break;
+                case Key.Left:
+                    gehtNachRechts = false;
+                    break;
+                case Key.Right:
+                    gehtNachRechts = true;
+                    break;
+                case Key.Down:
+                    gehtNachUnten = true;
+                    break;
+                case Key.Up:
+                    gehtNachUnten = false;
+                    break;
+                default:
+                    // die anderen Tasten interessieren uns hier nicht!
+                    break;
             }
         }
     }
